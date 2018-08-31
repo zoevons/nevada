@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Nevada Trails</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Acme|Nunito+Sans" rel="stylesheet">
+  </head>
+  <body>
+    <header id="header">
+
+      <nav class="navbar navbar-inverse navbar-fixed-top" id="nav-bar">
+       <div class="container-fluid">
+         <div class="navbar-header">
+           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+             <span class="icon-bar"></span>
+             <span class="icon-bar"></span>
+             <span class="icon-bar"></span>
+           </button>
+           <a class="navbar-brand" href="#"><img id="header-img" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Indianapolis_Colts_logo.svg/2000px-Indianapolis_Colts_logo.svg.png" alt="logo"></a>
+         </div>
+         <div class="collapse navbar-collapse" id="myNavbar">
+           <ul class="nav navbar-nav">
+             <li><a class="nav-link" href="#container">Home</a></li>
+             <li><a class="nav-link" href="#about">About</a></li>
+             <li><a class="nav-link" href="#prices-section">Trails</a></li>
+             <li><a class="nav-link" href="#contact">Contact</a></li>
+           </ul>
+         </div>
+       </div>
+     </nav>
+    </header>
+
+    <div id="container">
+      <img src="https://c1.staticflickr.com/3/2919/13787593855_92716c80ab_b.jpg" alt="main image" style="width:100%;">
+      <div class="text">
+        <h2 class="first-header">Welcome to </h2>
+        <h3 class="subheader">Nevada Trails</h3>
+      </div>
+    </div>
+
+    <div class="about-section" id="about">
+      <div class="about-text">
+        <h2 class="about-header">About Us</h2>
+      </div>
+          <div class="flex-container">
+            <div class="about-paragraph">
+                <p class="about-p">We are situated in the heart of the Nevada Desert and offer some fantastic horse riding trails.  Open all year round, our guides will show you some stunning scenery on one of our beautiful horses.</p>
+                <p class="about-p"> We offer a variety of different trails, most are suitable for all ages and all levels of riders.  We also offer sunrise and sunset trails across the beautiful Nevada Desert.
+                  All our guides are experienced riders and have some great knowledge about our trail locations which will ensure you have an amazing time.</p>
+            </div>
+              <div class="video-container"><iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/WETOKSZ6Kek" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>
+
+
+    </div>
+    </div>
+
+    <section id="prices-section" id="trails">
+      <h2 class="prices">Our Trails</h2>
+
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-4 col-sm-4 col-xs-12">
+
+          <div class="price-one">
+            <h3>3 Hour Trail</h3>
+            <ul class="trail">
+              <li>A 3 hour trail around Red Rock Canyon</li>
+              <li>View the stunning Red Rock Canyon and Summer Mountains</li>
+              <li>Suitable for all ages and riding levels</li>
+              <li>Riding helmet provided</li>
+              <li>This ride leaves at 9am</li>
+            <ul>
+              <button>Book Now</button>
+          </div>
+        </div>
+
+          <div class="col-md-4 col-sm-4 col-xs-12">
+          <div class="price-one">
+            <h3>1 Day Trail</h3>
+            <ul class="trail">
+              <li>A 1 Day trail around Red Rock Canyon</li>
+              <li>View the stunning Red Rock Canyon and Summer Mountains</li>
+              <li>Suitable for all riding levels</li>
+              <li>Riding helmet and lunch is provided</li>
+              <li>This ride leaves at 8am</li>
+            <ul>
+              <button>Book Now</button>
+          </div>
+        </div>
+
+          <div class="col-md-4 col-sm-4 col-xs-12">
+          <div class="price-one">
+            <h3>Overnight Trail</h3>
+            <ul class="trail">
+              <li>Enjoy an amazing overnight trail</li>
+              <li>View the stunning Red Rock Canyon and Summer Mountains</li>
+              <li>Suitable for more advanced riderss</li>
+              <li>Riding helmet, tents and food provided</li>
+              <li>This ride leaves at 9am</li>
+            <ul>
+              <button>Book Now</button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact-section" id="contact">
+        <h2 class="contact-us">Contact Us</h2>
+        <p class="contact">Please get in touch if you would like any more information</p>
+      <form id="form" action="https://www.freecodecamp.com/email-submit">
+        <div class="form-group">
+          <label for="exampleInputName1">Name</label>
+          <input type="text" class="form-control" id="name" aria-describedby="emailHelp" placeholder="Your Name">
+        </div>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input id="email" type="email" name="email" class="form-control" placeholder="Your Email">
+        </div>
+          <input id="submit" type="submit" value="Submit">
+      </form>
+    </section>
+
+<footer>
+  <p class="footer-text">&copy2018 Nevada Trails</p>
+</footer>
+
+  </body>
+</html>
